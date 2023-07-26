@@ -8,7 +8,6 @@ from random import randint
 
 n = int(input("n: "))
 numbers = []
-index = 1
 for i in range(n):
     numbers.append(randint(1, 5))
 max_num = max(numbers)
